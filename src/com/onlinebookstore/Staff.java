@@ -6,11 +6,10 @@
 package com.onlinebookstore;
 
 /**
- *
  * @author pkhulbe
  */
 public class Staff {
-    
+
     private int staffId;
     private String sname;
     private String email;
@@ -24,7 +23,7 @@ public class Staff {
         this.staffId = staffId;
     }
 
-    
+
     public String getSname() {
         return sname;
     }
@@ -48,5 +47,5 @@ public class Staff {
     public void setPassword(String password) {
         this.password = password;
     }
-    
+
 }

@@ -6,11 +6,10 @@
 package com.onlinebookstore;
 
 /**
- *
  * @author pkhulbe
  */
 public class Category {
-    
+
     private String cname;
 
     public String getCname() {
@@ -20,6 +19,6 @@ public class Category {
     public void setCname(String cname) {
         this.cname = cname;
     }
-    
-    
+
+
 }

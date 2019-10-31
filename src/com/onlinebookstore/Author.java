@@ -6,13 +6,12 @@
 package com.onlinebookstore;
 
 /**
- *
  * @author pkhulbe
  */
 public class Author {
 
-   private String authName;
-   private String email;
+    private String authName;
+    private String email;
 
     public String getAuthName() {
         return authName;
@@ -29,5 +28,5 @@ public class Author {
     public void setEmail(String email) {
         this.email = email;
     }
-    
+
 }

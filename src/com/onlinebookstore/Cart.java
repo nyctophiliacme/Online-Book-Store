@@ -6,7 +6,6 @@
 package com.onlinebookstore;
 
 /**
- *
  * @author pkhulbe
  */
 public class Cart {
@@ -37,5 +36,5 @@ public class Cart {
     public void setCartQty(int cartQty) {
         this.cartQty = cartQty;
     }
-    
+
 }

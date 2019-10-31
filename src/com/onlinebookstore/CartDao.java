@@ -6,11 +6,12 @@
 package com.onlinebookstore;
 
 /**
- *
  * @author pkhulbe
  */
 public interface CartDao {
     public boolean addCart(Cart obj);
-    public boolean updateQty(Cart obj,int custId,int bookId,int qty);
+
+    public boolean updateQty(Cart obj, int custId, int bookId, int qty);
+
     public boolean addCart(int custId, int bookId);
 }
