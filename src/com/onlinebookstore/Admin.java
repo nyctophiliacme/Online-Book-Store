@@ -6,11 +6,10 @@
 package com.onlinebookstore;
 
 /**
- *
  * @author pkhulbe
  */
 public class Admin {
-    
+
     private String aname;
     private String email;
     private String password;
@@ -38,5 +37,5 @@ public class Admin {
     public void setPassword(String password) {
         this.password = password;
     }
-    
+
 }

@@ -6,11 +6,10 @@
 package com.onlinebookstore;
 
 /**
- *
  * @author pkhulbe
  */
 public class Customer {
-    
+
     private int customerId;
     private String cname;
     private String email;
@@ -27,7 +26,7 @@ public class Customer {
         this.customerId = customerId;
     }
 
-    
+
     public String getCname() {
         return cname;
     }
@@ -75,5 +74,5 @@ public class Customer {
     public void setPhNo(long phNo) {
         this.phNo = phNo;
     }
-    
+
 }

@@ -6,7 +6,6 @@
 package com.onlinebookstore;
 
 /**
- *
  * @author pkhulbe
  */
 public class Orders {
@@ -28,6 +27,6 @@ public class Orders {
     public void setCustId(int custId) {
         this.custId = custId;
     }
-    
-    
+
+
 }

@@ -6,11 +6,10 @@
 package com.onlinebookstore;
 
 /**
- *
  * @author pkhulbe
  */
 public class Review {
-    
+
     private int custId;
     private int bookId;
     private double rating;
@@ -47,5 +46,5 @@ public class Review {
     public void setComment(String comment) {
         this.comment = comment;
     }
-    
+
 }

@@ -8,11 +8,10 @@ package com.onlinebookstore;
 import java.sql.Date;
 
 /**
- *
  * @author pkhulbe
  */
 public class Book {
-    
+
     private int bookId;
     private String bname;
     private double price;
@@ -29,8 +28,7 @@ public class Book {
         this.bookId = bookId;
     }
 
-    
-    
+
     public String getBname() {
         return bname;
     }
@@ -78,5 +76,5 @@ public class Book {
     public void setAvlqty(int avlqty) {
         this.avlqty = avlqty;
     }
-    
+
 }
